@@ -5,7 +5,7 @@ body {}
 }
 
 .principal {
-	background: #017b2e;
+	background: #01ff5e;
 	padding: 5px;
 }
 
@@ -13,7 +13,7 @@ body {}
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-size: 35px;
+	font-size: 60px;
 }
 
 .titulo-principal {
@@ -42,7 +42,7 @@ em strong {
 }
 
 .beneficios {
-	background: #012c0a;
+	background: #00ff37;
 	padding: 20px;
 }
 
@@ -64,7 +64,7 @@ header {
 
 .caixa {
 	position: relative;
-	width: 940px;
+	width: 50px;
 	margin: 0 auto;
 	padding: 0 20px;
 	display: flex;
