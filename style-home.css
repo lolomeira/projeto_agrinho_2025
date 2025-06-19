@@ -1,7 +1,7 @@
 body {}
 
 #banner {
-	width: 100%;
+	width: 50%;
 }
 
 .principal {
@@ -17,7 +17,7 @@ body {}
 }
 
 .titulo-principal {
-	padding-left: 20px;
+	padding-left: 25px;
 	height: 15vw;
 }
 
@@ -34,7 +34,7 @@ p {
 }
 
 em strong {
-	color: #FF0000;
+	color: #036817;
 }
 
 .itens {
