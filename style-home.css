@@ -1,23 +1,23 @@
 body {}
 
 #banner {
-	width: 50%;
+	width: 100%;
 }
 
 .principal {
 	background: #01ff5e;
-	padding: 5px;
+	padding: 100px;
 }
 
 .logo {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-size: 5px;
+	font-size: 50px;
 }
 
 .titulo-principal {
-	padding-left: 20px
+	padding-left: 60px
 	height: 15vw;
 }
 
@@ -30,7 +30,7 @@ p {
 }
 
 #missao {
-	font-size: 15px;
+	font-size: 50px;
 }
 
 em strong {
@@ -43,28 +43,28 @@ em strong {
 
 .beneficios {
 	background: #00ff37;
-	padding: 20px;
+	padding: 50px;
 }
 
 .beneficios ul {
 	display: inline-block;
 	vertical-align: top;
 	width: 50%;
-	margin-right: 20%;
+	margin-right: 50%;
 }
 
 .imagembeneficios {
-	width: 30%;
+	width: 10%;
 }
 
 header {
 	background: #BBBBBB;
-	padding: 30px 0;
+	padding: 50px 0;
 }
 
 .caixa {
 	position: relative;
-	width: 10px;
+	width: 50px;
 	margin: 0 auto;
 	padding: 0 10px;
 	display: flex;
