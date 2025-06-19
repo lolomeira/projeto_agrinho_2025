@@ -1,7 +1,7 @@
 body {}
 
 #banner {
-	width: 10%;
+	width: 50%;
 }
 
 .principal {
@@ -13,7 +13,7 @@ body {}
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-size: 60px;
+	font-size: 5px;
 }
 
 .titulo-principal {
@@ -64,9 +64,9 @@ header {
 
 .caixa {
 	position: relative;
-	width: 50px;
+	width: 10px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 10px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
