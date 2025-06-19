@@ -1,12 +1,12 @@
 body {}
 
 #banner {
-	width: 70%;
+	width: 10%;
 }
 
 .principal {
 	background: #017b2e;
-	padding: 1px;
+	padding: 5px;
 }
 
 .logo {
@@ -30,11 +30,11 @@ p {
 }
 
 #missao {
-	font-size: 50px;
+	font-size: 15px;
 }
 
 em strong {
-	color: #036817;
+	color: #000000;
 }
 
 .itens {
@@ -49,17 +49,17 @@ em strong {
 .beneficios ul {
 	display: inline-block;
 	vertical-align: top;
-	width: 40;
-	margin-right: 15%;
+	width: 50%;
+	margin-right: 20%;
 }
 
 .imagembeneficios {
-	width: 50%;
+	width: 30%;
 }
 
 header {
 	background: #BBBBBB;
-	padding: 20px 0;
+	padding: 30px 0;
 }
 
 .caixa {
