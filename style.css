@@ -156,3 +156,31 @@ td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+body {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+.botao-legal {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.botao-legal:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
