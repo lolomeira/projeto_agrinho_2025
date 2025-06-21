@@ -30,7 +30,7 @@ p {
 }
 
 #missao {
-	font-size: 20px
+	font-size: 30px
 }
 
 em strong {
@@ -43,18 +43,18 @@ em strong {
 
 .beneficios {
 	background: #FFFFFF;
-	padding: 20px;
+	padding: 30px;
 }
 
 .beneficios ul {
 	display: inline-block;
 	vertical-align: top;
-	width: 20%;
+	width: 50%;
 	margin-right: 15%;
 }
 
 .imagembeneficios {
-	width: 70%;
+	width: 40%;
 }
 
 header {
