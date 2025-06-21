@@ -6,7 +6,7 @@ body {}
 
 .principal {
 	background: #00ff2a;
-	padding: 30px;
+	padding: 60px;
 }
 
 .logo {
@@ -17,7 +17,7 @@ body {}
 }
 
 .titulo-principal {
-	padding-left: 20px;
+	padding-left: 10px;
 	height: 15vw;
 }
 
