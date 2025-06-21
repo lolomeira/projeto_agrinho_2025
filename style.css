@@ -156,3 +156,20 @@ td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+body {
+  background-color: #f0f0f0;
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: aparecer 2s ease-in-out forwards;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+  }
+}
