@@ -13,7 +13,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
+.titulo-objetivo{
+    text-align: center;
+    font-size: 15px;
+}
 
 .caixa {
     position: relative;
