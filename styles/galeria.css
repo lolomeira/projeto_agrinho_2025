@@ -1,0 +1,100 @@
+/* --- Estilos da Seção da Galeria --- */
+#galeria { /* Usamos o ID aqui */
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: center; 
+  max-width: 1200px; 
+  width: 100%; /* Garante que a galeria ocupe a largura disponível */
+  padding: 20px 0; /* Adiciona um pouco de padding vertical à seção */
+}
+
+.foto-item {
+  position: relative; 
+  width: 100%; 
+  max-width: 300px; 
+  aspect-ratio: 4/3; 
+  overflow: hidden; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra mais sutil */
+  cursor: pointer; 
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  background-color: #fff; /* Fundo branco para os itens da foto */
+}
+
+.foto-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block; 
+  /* Efeito de filtro inicial mais sutil */
+  filter: grayscale(40%) brightness(90%);
+  transition: filter 0.3s ease-out, transform 0.3s ease-out;
+}
+
+/* --- Efeito Hover --- */
+.foto-item:hover {
+  transform: translateY(-8px) scale(1.03); /* Mais levantamento e zoom */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* Sombra mais pronunciada no hover */
+}
+
+.foto-item:hover img {
+  filter: grayscale(0%) brightness(100%); /* Remove o filtro totalmente */
+  transform: scale(1.08); /* Zoom ligeiramente maior na imagem */
+}
+
+/* --- Overlay de Texto --- */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto; 
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.1)); /* Gradiente mais forte na base */
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+  transform: translateY(100%); 
+  transition: transform 0.4s ease-out, opacity 0.4s ease-out; /* Adicionado transição para opacidade */
+  opacity: 0; 
+  text-align: center;
+  display: flex; /* Usar flex para centralizar o texto verticalmente se necessário */
+  flex-direction: column;
+  justify-content: flex-end; /* Alinha o conteúdo à parte inferior do overlay */
+}
+
+.foto-item:hover .overlay {
+  transform: translateY(0); 
+  opacity: 1; 
+}
+
+.overlay h3 {
+  margin: 0 0 5px 0; /* Remove margens extras e ajusta a inferior */
+  font-size: 1.2em; /* Título um pouco maior */
+}
+
+.overlay p {
+  font-size: 0.95em; /* Texto ligeiramente maior */
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* --- Responsividade --- */
+@media (max-width: 768px) {
+  .foto-item {
+    max-width: 45%; /* Permite 2 colunas em tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .foto-item {
+    max-width: 90%; /* Ocupa quase a largura total em smartphones */
+    margin: 0 auto; 
+  }
+  header h1 {
+    font-size: 2em;
+  }
+  header p {
+    font-size: 1em;
+  }
+}
