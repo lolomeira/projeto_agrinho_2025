@@ -9,7 +9,7 @@
     --cor-de-fundo: #907330;
     --cor-principal: #1bdd86;
     --cor-preto: #000000;
-    --cor-vermelho:  #00ff33;
+    --cor-verde2: #0cf02393;
     --cor-verde: #0cf02393;
     --cor-branco: #FFFFFF;
 }
@@ -89,18 +89,6 @@ nav a:hover {
     font-weight: bold;
     margin-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @keyframes aparecer {
   to {
