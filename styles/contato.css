@@ -1,9 +1,12 @@
 .contato {
     width: 80%;
+    margin: 0 auto;
 }
 
 form {
-    margin: 40px auto;
+    margin: 40px;
+    width: 100%;
+    max-width: 600px;
 }
 
 
