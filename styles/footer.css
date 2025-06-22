@@ -1,11 +1,14 @@
 .rodape {
-    color: var(--cor-branco);
-    font-size: 18px;
-    margin: 10px 0 0;
     background-color: var(--cor-preto);
 }
 
 footer {
     text-align: center;
  
+}
+
+.copyright {
+    color: var(--cor-branco);
+    font-size: 22px;
+    margin: 10px 0 0;
 }
