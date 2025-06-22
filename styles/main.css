@@ -19,10 +19,11 @@
 
 p {
 	text-align: center;
+    font-size: 18px;
 }
 
 #missao {
-	font-size: 15px;
+	font-size: 20px;
 }
 
 em strong {

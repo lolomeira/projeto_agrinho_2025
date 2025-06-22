@@ -2,11 +2,12 @@
 @import url(./styles/main.css);
 
 :root {
-    --cor-de-fundo: #f0f0f0;
-    --cor-principal: #BBBBBB;
+    --cor-de-fundo: #907330;
+    --cor-principal: #1bdd86;
     --cor-preto: #000000;
-    --cor-vermelho:  #ff0000;
+    --cor-vermelho:  #00ff33;
     --cor-verde: #0cf02393;
+
 }
 
 body {
