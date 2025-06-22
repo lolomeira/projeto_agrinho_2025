@@ -3,7 +3,7 @@
 #galeria { /* Usamos o ID aqui */
   display: flex; 
   flex-wrap: wrap; 
-  gap: 20px; 
+  gap: 40px; 
   justify-content: center; 
   max-width: 1200px; 
   width: 100%; /* Garante que a galeria ocupe a largura disponível */
