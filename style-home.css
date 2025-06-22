@@ -1,13 +1,7 @@
 body {}
 
-#banner {
-	width: 100%;
-}
 
-.principal {
-	background: #00ff2a;
-	padding: 60px;
-}
+
 
 .logo {
 	display: flex;
@@ -16,46 +10,14 @@ body {}
 	font-size: 35px;
 }
 
-.titulo-principal {
-	padding-left: 10px;
-	height: 10vw;
-}
 
-.titulo-centralizado {
-	text-align: center
-}
 
-p {
-	text-align: center;
-}
 
-#missao {
-	font-size: 15px;
-}
 
-em strong {
-	color: #00ff11;
-}
 
-.itens {
-	font-style: italic
-}
 
-.beneficios {
-	background: #00ff11;
-	padding: 30px;
-}
 
-.beneficios ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 90%;
-	margin-right: 30%;
-}
 
-.imagembeneficios {
-	width: 30%;
-}
 
 
 .caixa {

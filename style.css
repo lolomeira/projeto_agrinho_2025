@@ -4,8 +4,9 @@
     --cor-de-fundo: #f0f0f0;
     --cor-principal: #BBBBBB;
     --cor-preto: #000000;
+    --cor-vermelho:  #ff0000;
+    --cor-verde: #0cf02393;
 }
-
 
 body {
   background-color: #f0f0f0;
@@ -17,6 +18,92 @@ body {
     text-align: center;
     font-size: 15px;
 }
+
+#banner {
+	width: 100%;
+}
+
+.principal {
+	background: var(--cor-de-fundo);
+	padding: 30px;
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 15px;
+}
+
+em strong {
+	color: var(--cor-vermelho);
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficios {
+	background: var(--cor-verde);
+	padding: 30px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.beneficios ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 90%;
+	margin-right: 30%;
+}
+
+.imagembeneficios {
+	width: 30%;
+}
+
+.lista-conteudo {
+     display: inline-block;
+    vertical-align: top;
+    width: 80%;
+}
+ 
+.iten {
+    font-weight: bold;
+    line-height: 2.0;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.itens {
+    font-style: italic;
+    line-height: 2.0;
+    font-size: 16px;
+}
+
+.iten:first-child {
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "★";
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .caixa {
     position: relative;
