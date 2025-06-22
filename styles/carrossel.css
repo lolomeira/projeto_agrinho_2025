@@ -27,7 +27,7 @@
 }
 
 .swiper-slide img {
-    width: 50%;
+    width:  100%;
     height: auto; /* Mantém a proporção da imagem */
     max-height: 400px;
     object-fit: cover; /* Ajusta a imagem para preencher o contêiner */
@@ -107,7 +107,7 @@
     }
 
     .swiper {
-        width: 30%;
+        width: 50%;
     }
 
     .swiper-pagination {
