@@ -3,6 +3,7 @@
 @import url(./styles/carrossel.css);
 @import url(./styles/footer.css);
 @import url(./styles/galeria.css);
+@import url(./styles/contato.css);
 
 :root {
     --cor-de-fundo: #907330;
