@@ -54,5 +54,6 @@ form input {
 
 .imagem-contato {
     width: 50%;
-    align-items: center;
+    display: block;
+    margin: 0 auto;
 }
