@@ -1,4 +1,5 @@
 /* --- Estilos da Seção da Galeria --- */
+
 #galeria { /* Usamos o ID aqui */
   display: flex; 
   flex-wrap: wrap; 
@@ -7,6 +8,7 @@
   max-width: 1200px; 
   width: 100%; /* Garante que a galeria ocupe a largura disponível */
   padding: 20px 0; /* Adiciona um pouco de padding vertical à seção */
+  margin: 0 auto;
 }
 
 .foto-item {
