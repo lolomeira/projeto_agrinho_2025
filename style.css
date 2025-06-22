@@ -1,8 +1,18 @@
+@import url(./styles/header.css);
+
+:root {
+    --cor-de-fundo: #f0f0f0;
+    --cor-principal: #BBBBBB;
+    --cor-preto: #000000;
+}
+
+
 body {
   background-color: #f0f0f0;
   text-align: center;
   font-family: Arial, sans-serif;
 }
+
 
 header {
     background: #BBBBBB;
